@@ -66,7 +66,7 @@ const PROJECTS = [
     id: 7,
     title: "Pygame Raycaster",
     category: "Pygame",
-    description: "DOOM-style pseudo-3D rendering engine built from scratch. Implements trigonometric ray-marching algorithms and texture mapping without external 3D libraries.",
+    description: "DOOM-style pseudo-3D rendering engine built from scratch. Implements trigonometric ray-marching algorithms.",
     tags: ["Python", "Pygame"],
     image: "https://i.imgur.com/J64UUVG.png",
     type: "iframe",

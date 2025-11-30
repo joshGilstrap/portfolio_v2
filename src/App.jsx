@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Github, Linkedin, Mail, Code2, X} from 'lucide-react';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const PROJECTS = [
   {
@@ -305,6 +305,7 @@ const App = () => {
         />
       )}
       <Contact />
+      <Analytics />
     </div>
   );
 };

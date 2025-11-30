@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {Github, Linkedin, Mail, Code2, X} from 'lucide-react';
+import { Analytics } from "@vercel/analytics/next"
 
 const PROJECTS = [
   {

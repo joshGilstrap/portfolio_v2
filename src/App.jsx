@@ -65,6 +65,16 @@ const PROJECTS = [
   },
   {
     id: 7,
+    title: "ESCAPE!",
+    category: "p5.js",
+    description: "Play ESCAPE! Sneak by the hunters, collect all the keys in each room and reach the door. Hunters can hear you through walls and will chase you if they see you! This game implements A* Pathfinding and maze generation using Depth-First Search, all implemented from scratch in p5.js' Web Editor",
+    tags: ["Stealth", "p5.js", "A* Pathfinding", "Maze Generation"],
+    image: "https://i.imgur.com/2SZd6t4.gif",
+    type: "iframe",
+    demoUrl: "https://editor.p5js.org/Josharooski/full/Tltr_e4Ra"
+  },
+  {
+    id: 8,
     title: "Pygame Raycaster",
     category: "Pygame",
     description: "DOOM-style pseudo-3D rendering engine built from scratch. Implements trigonometric ray-marching algorithms.",
@@ -75,7 +85,7 @@ const PROJECTS = [
     repoUrl: "https://github.com/joshGilstrap/Pygame_Raycaster",
   },
   {
-    id: 8,
+    id: 9,
     title: "2D Entity Framework",
     category: "Pygame",
     description: "Modular game loop architecture featuring custom AABB (Axis-Aligned Bounding Box) collision detection and object-oriented entity state management.",

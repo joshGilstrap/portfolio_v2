@@ -35,6 +35,16 @@ const PROJECTS = [
   },
   {
     id: 4,
+    title: "ESCAPE!",
+    category: "p5.js",
+    description: "Play ESCAPE! Sneak by the hunters, collect all the keys in each room and reach the door. Hunters can hear you through walls and will chase you if they see you! This game implements A* Pathfinding and maze generation using Depth-First Search, all implemented from scratch in p5.js' Web Editor",
+    tags: ["Stealth", "p5.js", "A* Pathfinding", "Maze Generation"],
+    image: "https://i.imgur.com/2SZd6t4.gif",
+    type: "iframe",
+    demoUrl: "https://editor.p5js.org/Josharooski/full/Tltr_e4Ra"
+  },
+  {
+    id: 5,
     title: "Horde Survivor",
     category: "p5.js",
     description: "A fast-paced 'Vampire Survivors' style roguelite. Features dynamic difficulty scaling, an experience/leveling system, and optimized rendering for on-screen entities.",
@@ -44,7 +54,7 @@ const PROJECTS = [
     demoUrl: "https://editor.p5js.org/Josharooski/full/rhUk8ouR-",
   },
   {
-    id: 5,
+    id: 6,
     title: "Bounce-A-Lot",
     category: "p5.js",
     description: "A physics-based arcade survival game built entirely using Object-Oriented JavaScript. Demonstrates custom gravity logic, collision handling, and state management.",
@@ -54,7 +64,7 @@ const PROJECTS = [
     demoUrl: "https://editor.p5js.org/Josharooski/full/S0cceXCQE"
   },
   {
-    id: 6,
+    id: 7,
     title: "Vector Physics Prototype",
     category: "p5.js",
     description: "Experimental physics sandbox exploring emergent gameplay.",
@@ -62,16 +72,6 @@ const PROJECTS = [
     image: "https://i.imgur.com/sKCmxst.png",
     type: "iframe",
     demoUrl: "https://editor.p5js.org/Josharooski/full/Ly9J3ntvr"
-  },
-  {
-    id: 7,
-    title: "ESCAPE!",
-    category: "p5.js",
-    description: "Play ESCAPE! Sneak by the hunters, collect all the keys in each room and reach the door. Hunters can hear you through walls and will chase you if they see you! This game implements A* Pathfinding and maze generation using Depth-First Search, all implemented from scratch in p5.js' Web Editor",
-    tags: ["Stealth", "p5.js", "A* Pathfinding", "Maze Generation"],
-    image: "https://i.imgur.com/2SZd6t4.gif",
-    type: "iframe",
-    demoUrl: "https://editor.p5js.org/Josharooski/full/Tltr_e4Ra"
   },
   {
     id: 8,
